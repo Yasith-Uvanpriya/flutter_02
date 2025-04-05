@@ -26,4 +26,17 @@ class MyApp extends StatelessWidget {
             color: Colors.white,
           ),),
           actions: [
-           
+            Container(
+              alignment: Alignment.center, // Adjust alignment
+              padding: const EdgeInsets.only(bottom: 03), // Adjust padding
+              child: IconButton(
+                onPressed: () {},
+                icon: const Icon(Icons.menu),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
