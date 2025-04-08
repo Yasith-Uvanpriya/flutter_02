@@ -37,16 +37,23 @@ class MyApp extends StatelessWidget {
           ],
         ),
         body: Padding(
-          padding: const EdgeInsets.all(15.0),
+          padding: const EdgeInsets.all(12.0),
           child: Column(
-            children: const [
-              const Text("SPACE DETAILS",
+            
+            children:  [
+              const  Text("SPACE DETAILS",
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 20,
                 fontWeight: FontWeight.bold,        
-              ),)
+              ),),
+              Center(
+                child: Image.asset("assests/space1.png", 
+                height: 300,
+                scale: 2,),
+              )
             ],
+
           ),
         ),
       ),
