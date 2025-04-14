@@ -47,10 +47,13 @@ class MyApp extends StatelessWidget {
                 fontSize: 20,
                 fontWeight: FontWeight.bold,        
               ),),
-              Center(
-                child: Image.asset("assests/space1.png", 
-                height: 300,
-                scale: 2,),
+              Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: Center(
+                  child: Image.asset("assests/space1.png", 
+                  height: 250,
+                  scale: 2,),
+                ),
               )
             ],
 
