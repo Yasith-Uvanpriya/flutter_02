@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.black,
         appBar: AppBar(
           backgroundColor: Colors.black,
-          shadowColor: const Color.fromARGB(255, 21, 20, 12),
+          shadowColor: const Color.fromARGB(255, 244, 243, 239),
           elevation: 5.0,
            toolbarHeight: 70,
            title: const Text("BLACK HOLE",
