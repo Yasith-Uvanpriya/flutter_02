@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.all(12.0),
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center, // Align text to left
+              crossAxisAlignment: CrossAxisAlignment.center, 
               children: const [
                 SizedBox(height: 50),
                 Text(
